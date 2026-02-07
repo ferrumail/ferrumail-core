@@ -21,12 +21,10 @@ Follow the [Kickstarter campaign](https://ferrumail.org) to support the project.
 Browser → Ferrumail (Leptos SSR) → RustMailer API → IMAP Server
 ```
 
-Ferrumail does not connect directly to IMAP. [RustMailer](https://github.com/ferrumail/rustmailer) handles protocol complexity, MIME parsing, and OAuth2.
-
 ## Requirements
 
 - Rust (stable)
-- PostgreSQL ≥ 16
+- PostgreSQL ≥ 18
 - A running RustMailer instance
 
 ## Building
