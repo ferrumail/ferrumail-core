@@ -16,16 +16,11 @@ Follow the [Kickstarter campaign](https://ferrumail.org) to support the project.
 - **Multi-tab sync** via SSE and BroadcastChannel
 - **MCP interfaces** for AI agent integration (planned)
 
-## Architecture
-```
-Browser → Ferrumail (Leptos SSR) → RustMailer API → IMAP Server
-```
 
 ## Requirements
 
 - Rust (stable)
 - PostgreSQL ≥ 18
-- A running RustMailer instance
 
 ## Building
 ```bash
